@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#f0f0f0"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/chat_list"
+        android:layout_marginBottom="60dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <addicto.myleader.FloatingEditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/chat_et1"
+            android:hint="Enter text here..."
+            android:layout_weight=".7" />
+
+        <addicto.myleader.PaperButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Send"
+            android:id="@+id/chat_bt1"
+            android:layout_weight=".3" />
+
+    </LinearLayout>
+
+</RelativeLayout>

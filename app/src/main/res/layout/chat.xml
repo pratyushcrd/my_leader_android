@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_background"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="14dp"
+    android:id="@+id/cand_ll"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1"
+        android:adjustViewBounds="true"
+        android:id="@+id/card_dp"
+        android:layout_gravity="center_vertical|center_horizontal" />
+
+    <TextView
+        android:id="@+id/card_text"
+        android:layout_weight=".9"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/card_dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#444"
+        android:autoLink="all"
+        android:text="" />
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/cand_ll"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_imgPost"
+        android:layout_marginTop="4dp"
+        android:textColor="#888"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="14dp"/>
+</RelativeLayout>
