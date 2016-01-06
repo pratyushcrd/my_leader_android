@@ -12,7 +12,7 @@ What you can do
 
 Screenshots
 
-![ss](https://raw.githubusercontent.com/pratyushcrd/my_leader_android/master/screenshots/1.jpg)![ss](https://raw.githubusercontent.com/pratyushcrd/my_leader_android/master/screenshots/2.jpg)![ss](https://raw.githubusercontent.com/pratyushcrd/my_leader_android/master/screenshots/3.jpg)![ss](https://raw.githubusercontent.com/pratyushcrd/my_leader_android/master/screenshots/4.jpg)
+![ss](https://raw.githubusercontent.com/pratyushcrd/my_leader_android/master/screenshots/1.jpg)  ![ss](https://raw.githubusercontent.com/pratyushcrd/my_leader_android/master/screenshots/2.jpg)  ![ss](https://raw.githubusercontent.com/pratyushcrd/my_leader_android/master/screenshots/3.jpg)  ![ss](https://raw.githubusercontent.com/pratyushcrd/my_leader_android/master/screenshots/4.jpg)
 
 ### Version
 1.0
